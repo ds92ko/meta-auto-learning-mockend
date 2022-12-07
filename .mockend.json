@@ -10,13 +10,13 @@
       }
     },
     "Tags": {
-      "loremWords": { 
-        "minLength": 10,
-        "maxLength": 20
+      "loremWords": {
+        "minLength": 30,
+        "maxLength": 50
       }
     },
     "Url": {
-      "regexp": "www\\.[a-z]{5}\\.[a-z]{2,3}"
+      "regexp": "https://www\\.[a-z]{5}\\.[a-z]{2,3}"
     },
     "DataSet": {
       "boolean": {}
