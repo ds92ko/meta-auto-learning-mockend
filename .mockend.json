@@ -9,17 +9,12 @@
         "max": "2022-12-31T23:59:59Z"
       }
     },
-    "Tags": [
-      {
-        "loremWord": {}
-      },
-      {
-        "loremWord": {}
-      },
-      {
-        "loremWord": {}
+    "Tags": {
+      "loremWords": { 
+        "minLength": 10,
+        "maxLength": 20
       }
-    ],
+    },
     "Url": {
       "regexp": "https://www.\\[a-z]{3,6}.com"
     },
