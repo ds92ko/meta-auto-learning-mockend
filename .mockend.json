@@ -1,0 +1,48 @@
+{
+  "Post": {
+    "ObjName": {
+      "loremWord": {
+        "minLength": 1,
+        "maxLength": 10
+      }
+    },
+    "DateTime": {
+      "dateTime": {}
+    },
+    "Tags": [
+      {
+        "loremWord": {
+          "minLength": 1,
+          "maxLength": 10
+        }
+      },
+      {
+        "loremWord": {
+          "minLength": 1,
+          "maxLength": 10
+        }
+      },
+      {
+        "loremWord": {
+          "minLength": 1,
+          "maxLength": 10
+        }
+      }
+    ],
+    "Url": {
+      "regexp": "https://www.\\[a-z]{3,6}.com"
+    },
+    "DataSet": {
+      "boolean": {}
+    },
+    "Learning": {
+      "boolean": {}
+    },
+    "progress": {
+      "int": {
+        "min": 0,
+        "max": 100
+      }
+    }
+  }
+}
