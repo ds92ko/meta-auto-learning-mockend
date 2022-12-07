@@ -11,8 +11,8 @@
     },
     "Tags": {
       "loremWords": {
-        "minLength": 30,
-        "maxLength": 50
+        "minLength": 20,
+        "maxLength": 30
       }
     },
     "Url": {
