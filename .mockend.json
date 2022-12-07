@@ -1,32 +1,23 @@
 {
   "Post": {
     "ObjName": {
-      "loremWord": {
-        "minLength": 1,
-        "maxLength": 10
-      }
+      "loremWord": {}
     },
     "DateTime": {
-      "dateTime": {}
+      "dateTime": {
+        "min": "2022-01-01T00:00:00Z",
+        "max": "2022-12-31T23:59:59Z"
+      }
     },
     "Tags": [
       {
-        "loremWord": {
-          "minLength": 1,
-          "maxLength": 10
-        }
+        "loremWord": {}
       },
       {
-        "loremWord": {
-          "minLength": 1,
-          "maxLength": 10
-        }
+        "loremWord": {}
       },
       {
-        "loremWord": {
-          "minLength": 1,
-          "maxLength": 10
-        }
+        "loremWord": {}
       }
     ],
     "Url": {
