@@ -16,7 +16,7 @@
       }
     },
     "Url": {
-      "regexp": "https://www.\\[a-z]{3,6}.com"
+      "regexp": "https://www\\.[a-z]{5}.com"
     },
     "DataSet": {
       "boolean": {}
