@@ -1,27 +1,27 @@
 {
   "Post": {
-    "ObjName": {
+    "objName": {
       "loremWord": {}
     },
-    "DateTime": {
+    "dateTime": {
       "dateTime": {
         "min": "2022-01-01T00:00:00Z",
         "max": "2022-12-31T23:59:59Z"
       }
     },
-    "Tags": {
+    "tags": {
       "loremWords": {
         "minLength": 30,
         "maxLength": 50
       }
     },
-    "Url": {
+    "url": {
       "regexp": "https://www\\.[a-z]{5}\\.[a-z]{2,3}"
     },
-    "DataSet": {
+    "dataSet": {
       "boolean": {}
     },
-    "Learning": {
+    "learning": {
       "boolean": {}
     },
     "progress": {
