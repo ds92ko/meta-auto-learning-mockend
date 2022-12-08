@@ -6,7 +6,7 @@
     "DateTime": {
       "dateTime": {
         "min": "2022-01-01T00:00:00Z",
-        "max": "2022-12-31T23:59:59Z"
+        "max": "2022-12-08T23:59:59Z"
       }
     },
     "Tags": {
@@ -16,7 +16,7 @@
       }
     },
     "Url": {
-      "regexp": "https://www\\.[a-z]{5}\\.[a-z]{2,3}"
+      "regexp": "www\\.[a-z]{5}\\.[a-z]{2,3}"
     },
     "DataSet": {
       "boolean": {}
